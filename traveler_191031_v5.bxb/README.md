@@ -1,6 +1,6 @@
 # 트래블러(Traveler)
 
-- SSAFY 'Traveler' 김민지, 정윤영, 이한얼
+- SSAFY 'Traveler' 김민지, 이한얼, 정윤영
 
 ## 개요
 
