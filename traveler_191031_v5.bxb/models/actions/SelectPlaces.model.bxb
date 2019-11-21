@@ -1,0 +1,10 @@
+action (SelectPlaces) {
+  description (Places 구조체에서 ContentId 선택하여 내보냄)
+  collect {
+    input (places) {
+      type (Places)
+      min (Required) max (One)
+    }
+  }
+  output (ContentId)
+}

@@ -1,0 +1,3 @@
+text (PlaceImg2) {
+  description (관광지에 대해 받아오는 2번째 이미지 URL을 저장한 변수)
+}

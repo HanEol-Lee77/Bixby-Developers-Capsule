@@ -1,0 +1,103 @@
+layout-macro-def (spot-detail) {
+	params {
+		param (places) {
+			type (Places)
+			min (Required) max (One)
+		}
+	}
+	content {
+		section {
+			content {
+				image-card {
+					aspect-ratio (4:3)
+					image-url {
+						template ("[#{value(places.firstimage)}]")
+					}
+					title-area {
+						halign (Start)
+						slot1 {
+							text {
+								value ("#{value(places.title)}")
+								style (Title_L)
+							}
+						}
+						slot3 {
+							paragraph ("#{value(places.addr1)}"){
+								style (Detail_M)
+							}
+						}
+					}
+				}
+        partitioned {
+					content {
+            paragraph ("#{value(places.overview)}"){
+              style (Detail_L)
+            }
+          }
+        }
+				partitioned {
+					content {
+						single-line {
+							text {
+								value ("사용시간: #{value(places.usetime)}")
+								style (Title_XS)
+							}
+						}
+            single-line {
+							text {
+								value ("휴무일: #{value(places.restdate)}")
+								style (Title_XS)
+							}
+						}
+            single-line {
+							text {
+								value ("문의 및 안내: #{value(places.infocenter)}")
+								style (Title_XS)
+							}
+						}
+					}
+				}
+				partitioned {
+					content {
+						single-line {
+							text {
+								value ("주차이용: #{value(places.parking)}")
+								style (Title_XS)
+							}
+						}
+					}
+				}
+				partitioned {
+					content {
+						single-line {
+							text {
+								value ("신용카드 사용: #{value(places.chkcreditcard)}")
+								style (Title_XS)
+							}
+						}
+					}
+				}
+				partitioned {
+					content {
+						single-line {
+							text {
+								value ("애완동물 동반: #{value(places.chkpet)}")
+								style (Title_XS)
+							}
+						}
+					}
+				}
+				partitioned {
+					content {
+						single-line {
+							text {
+								value ("유모차대여: #{value(places.chkbabycarriage)}")
+								style (Title_XS)
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

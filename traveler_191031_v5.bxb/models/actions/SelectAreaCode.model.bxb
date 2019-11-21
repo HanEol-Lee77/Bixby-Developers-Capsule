@@ -1,0 +1,10 @@
+action (SelectAreaCode) {
+  description (Areacode목록에서 선택)
+  collect {
+    input (areaCode) {
+      type (AreaCode)
+      min (Required) max (One)
+    }
+  }
+  output (AreaCodeNum)
+}

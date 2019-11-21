@@ -1,0 +1,6 @@
+action (GetAreaCode) {
+  description (지역명에 맞는 지역코드 반환)
+  collect {
+  }
+  output (AreaCode)
+}

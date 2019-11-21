@@ -1,0 +1,66 @@
+structure (Places) {
+  description (한국관광공사 API를 활용하여 받은 관광지에 대한 모든 정보를 저장하는 구조체)
+  // base 정보
+  property (title) {
+    type (PlaceName)
+    min (Optional) max (One)
+  }
+  property (addr1) {
+    type (PlaceAddr)
+    min (Optional) max (One)
+  }
+  property (firstimage) {
+    type (PlaceImg)
+    min (Optional) max (Many)
+  }
+  property (firstimage2) {
+    type (PlaceImg2)
+    min (Optional) max (Many)
+  }
+  property (contentid) {
+    type (ContentId)
+    min (Optional) max (One)
+  }
+  // detailCommon 정보
+  property (overview) {
+    type(PlaceOverview)
+    min (Optional) max (One)
+  }
+  property (tel) {
+    type(PlaceTel)
+    min (Optional) max (One)
+  }
+  property (telname) {
+    type(PlaceTelName)
+    min (Optional) max (One)
+  }
+  // detailIntro 정보
+  property (chkcreditcard) {
+    type(PlaceChkcreditcard)
+    min (Optional) max (One)
+  }
+  property (chkbabycarriage) {
+    type(PlaceChkbabycarriage)
+    min (Optional) max (One)
+  }
+  property (chkpet) {
+    type(PlaceChkpet)
+    min (Optional) max (One)
+  }
+  property (infocenter) {
+    type(PlaceInfocenter)
+    min (Optional) max (One)
+  }
+  property (parking) {
+    type(PlaceParking)
+    min (Optional) max (One)
+  }
+  property (restdate) {
+    type(PlaceRestdate)
+    min (Optional) max (One)
+  }
+  property (usetime) {
+    type(PlaceUsetime)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,5 @@
+train (t-bu9m5hx6rcvbvx26d3e01rv8k) {
+  utterance ("[g:GetPlaces] (인천)[v:AreaCode:인천] (문화예술)[v:Cat:문화예술역사]")
+  plan (Y+BgkCrISaxML8ovzUvRKylKLEvNSS3SC8hJTE4tZpDFJueeWgKVlscm7ViUmuicn5LqV5qL3WznxBKQnBI2uWAgmVwCM4JBBp8F2F0HMQFoB4M4DssZ2BkYGZgYmBlYGFgZ2IA8BiAfJMICFGMDshjAIgxQFjOQZgWpAgA=)
+  last-modified (1572521640518)
+}

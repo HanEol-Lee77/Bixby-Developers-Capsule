@@ -1,0 +1,19 @@
+structure (ProgressInfo) {
+  description (검색된 관광지 구성 정보)
+  property (pageNo) {
+    type (PageNo)
+    min (Required) max (One)
+  }
+  property (catnum) {
+    type (CatNum)
+    min (Required) max (One)
+  }
+  property (areaCodeNum) {
+    type (AreaCodeNum)
+    min (Required) max (One)
+  }
+  property (places) {
+    type (Places)
+    min (Required)
+  }
+}

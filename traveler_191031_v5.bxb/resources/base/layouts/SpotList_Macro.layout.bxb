@@ -1,0 +1,25 @@
+layout-macro-def (spot-list) {
+	params {
+		param (places) {
+			type (Places)
+			min (Required) max (One)
+		}
+	}
+	content {
+		image-card {
+			aspect-ratio (4:3)
+			image-url {
+				template ("[#{value(places.firstimage)}]")
+			}
+			title-area {
+				halign (Start)
+				slot1 {
+					text {
+						value ("#{value(places.title)}")
+						style (Title_L)
+					}
+				}
+			}
+		}
+	}
+}

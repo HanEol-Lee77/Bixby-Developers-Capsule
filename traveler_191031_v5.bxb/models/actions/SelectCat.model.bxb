@@ -1,0 +1,10 @@
+action (SelectCat) {
+  description (cat 목록에서 선택)
+  collect {
+    input (cat) {
+      type (Cat)
+      min (Required) max (One)
+    }
+  }
+  output (CatNum)
+}

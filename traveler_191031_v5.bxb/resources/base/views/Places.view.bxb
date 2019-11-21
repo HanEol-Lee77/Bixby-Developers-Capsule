@@ -1,0 +1,46 @@
+result-view {
+	match {
+		Places (places)
+	}
+	
+	message {
+		if (size(places) == 1) {
+			template("#{value(places.title)}의 상세정보입니다.")
+
+		} else-if (size(places) > 1) {
+			choose (Random) {
+				template("추천 리스트입니다")
+				template("오늘 여기 어때요?")
+			}
+		} else-if (size(places) < 1) {
+			template("검색 결과가 없네요! 다시 검색해주세요")
+		}
+	}
+	
+	render {
+		if (size(places) > 1) {
+			list-of (places) {
+				where-each (item) {
+					layout-macro (spot-list) {
+						param (places) {
+							expression(item)
+						}
+					}
+				}
+			}
+		} else-if (size(places) == 1) {
+			layout-macro (spot-detail) {
+				param (places) {
+					expression (places)
+				}
+			}
+		}
+	}
+	conversation-drivers {
+		if (size(places) <= 1) {
+			conversation-driver {
+				template ("다시 검색")
+			}
+		}
+	}
+}

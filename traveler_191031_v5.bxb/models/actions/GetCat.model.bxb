@@ -1,0 +1,6 @@
+action (GetCat) {
+  description (Cat 관광지유형 정보들을 들고 온다.)
+  collect {
+  }
+  output (Cat)
+}

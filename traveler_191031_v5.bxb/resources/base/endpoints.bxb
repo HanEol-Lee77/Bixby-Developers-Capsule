@@ -1,0 +1,25 @@
+endpoints {
+  action-endpoints {
+    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+    action-endpoint (GetAreaCode) {
+      accepted-inputs ()
+      local-endpoint (GetAreaCode.js)
+    }
+    action-endpoint (SelectAreaCode) {
+      accepted-inputs (areaCode)
+      local-endpoint (SelectAreaCode.js)
+    }
+    action-endpoint (GetCat) {
+      accepted-inputs ()
+      local-endpoint (GetCat.js)
+    }
+    action-endpoint (SelectCat) {
+      accepted-inputs (cat)
+      local-endpoint (SelectCat.js)
+    }
+    action-endpoint (GetPlaces) {
+      accepted-inputs (areaCodeNum, catNum)
+      local-endpoint (GetPlaces.js)
+    }
+  }
+}

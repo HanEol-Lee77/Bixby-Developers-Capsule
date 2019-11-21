@@ -1,0 +1,3 @@
+text (PlaceAddr) {
+  description (해당 관광지의 주소를 저장한 변수)
+}

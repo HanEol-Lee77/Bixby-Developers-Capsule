@@ -1,0 +1,3 @@
+text (PlaceTelName) {
+  description (place의 담당 관리부서명)
+}

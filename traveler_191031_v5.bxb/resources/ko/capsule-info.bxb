@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (트래블러)
+  developer-name (여행가자)
+  icon-asset (images/icon.png)
+  description (대한민국 관광지 정보를 제공합니다.)
+  search-keywords {
+    keyword (여행지)
+    keyword (관광지)
+    keyword (국내여행)
+  }
+  dispatch-name (트래블러)
+}

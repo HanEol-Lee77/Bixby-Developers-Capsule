@@ -1,0 +1,3 @@
+text (PlaceTel) {
+  description (place의 담당 관리부서 전화번호)
+}

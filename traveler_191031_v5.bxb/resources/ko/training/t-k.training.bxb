@@ -1,0 +1,5 @@
+train (t-k2ikaqrtp4k4obfkqeex2coz1) {
+  utterance ("[g:GetPlaces] (서울)[v:AreaCode:서울]의 (자연)[v:Cat:자연]이 좋은 관광지 추천해줘")
+  plan (Y+BgkCgpSixLzUkt0oMzAnISk1OLGaQxZdxTS6CSspiSjkWpic75Kal+pbnYTHVOLAHJKGDKBAPJ5BKYdgYp3EZjcxNEN9B0BlGsljKwMzAyMDEwM7AwsDKwAXkMQD5IhAUoxgZkMYBFGKAsZiDNClIFAA==)
+  last-modified (1572536566093)
+}

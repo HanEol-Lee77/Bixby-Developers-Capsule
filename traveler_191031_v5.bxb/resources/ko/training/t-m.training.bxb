@@ -1,0 +1,5 @@
+train (t-m9nqwtrr9mmk819jbmwnbrcpm) {
+  utterance ("[g:GetPlaces] (서울)[v:AreaCode:서울] (문화예술)[v:Cat:문화예술역사]")
+  plan (Y+BgkCrISaxML8ovzUvRKylKLEvNSS3SC8hJTE4tZpDFJueeWgKVlscm7ViUmuicn5LqV5qL3WznxBKQnBI2uWAgmVwCM4JBBp8F2F0HMQFoB4M4DssZ2BkYGZgYmBlYGFgZ2IA8BiAfJMICFGMDshjAIgxQFjOQZgWpAgA=)
+  last-modified (1572521578499)
+}

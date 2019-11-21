@@ -1,0 +1,21 @@
+capsule {
+  id (traveler.traveler)
+  version (0.1.1)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    modern-default-view-behavior
+    support-halt-effect-in-computed-inputs
+    no-fallback-to-result-collections
+    no-filtering-with-validation
+    use-input-views-for-selection-list-detail
+  }
+  store-sections {
+    section (TravelAndTransportation)
+    section (Local)
+  }
+}

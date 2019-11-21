@@ -1,0 +1,8 @@
+hints {
+  uncategorized{
+    utterance (트레블러에서, 관광지 찾아줘)
+    utterance (트레블러에서, 서울에 있는 자연이 좋은 곳 찾아줘)
+    utterance (트레블러에서, 역사가 살아 숨쉬는 곳 보여줘)
+    utterance (트레블러에서, 대전에 갈 만한 곳 보여줘)
+  }
+}

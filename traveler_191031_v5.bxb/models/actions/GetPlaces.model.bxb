@@ -1,0 +1,25 @@
+action (GetPlaces) {
+  description (1.지역, 관광지타입에 맞추어 API를 통해 관광지 리스트를 불러오기)
+  type (Constructor)
+  collect {
+    input (areaCodeNum) {
+      type (AreaCodeNum)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: SelectAreaCode
+        }
+      }
+    }
+    input (catNum) {
+      type (CatNum)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: SelectCat
+        }
+      }
+    }
+  }
+  output (Places)
+}

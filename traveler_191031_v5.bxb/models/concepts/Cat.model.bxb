@@ -1,0 +1,6 @@
+enum (Cat) {
+  description (관광지종류)
+  symbol (아무거나)
+  symbol (자연)
+  symbol (문화예술역사)
+}

@@ -1,0 +1,5 @@
+train (t-e4aaet2ceeu207p7b45wa16ls) {
+  utterance ("[g:GetPlaces] (충북)[v:AreaCode:충청북도] (자연)[v:Cat:자연]")
+  plan (Y+BgkCrISaxML8ovzUvRKylKLEvNSS3SC8hJTE4tZpDFJueeWgKVlscm7ViUmuicn5LqV5qL3WznxBKQnBI2uWAgmVwCM4JBBp8F2F0HMQFoB4M4DssZ2BkYGZgYmBlYGFgZ2IA8BiAfJMICFGMDshjAIgxQFjOQZgWpAgA=)
+  last-modified (1572521679035)
+}
